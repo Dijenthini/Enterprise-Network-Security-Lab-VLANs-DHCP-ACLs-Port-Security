@@ -837,6 +837,15 @@ This project was completed as part of my **CCNA: Introduction to Networks** self
 ## 📄 License
 
 This project is for **educational purposes only**.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📝 Author
+
+**Dijenthini M.X**  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dijenthini)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dijenthini)
 
 ---
 

@@ -636,36 +636,187 @@ R1>
 
 ## 📸 Screenshots
 
-| # | Screenshot | Description |
-|---|------------|-------------|
-| 1 | ![Logical Topology](Screenshots/topology-logical.png) | Logical network topology showing all devices and connections |
-| 2 | ![Physical Topology](Screenshots/physical-topology.png) | Physical rack view in Main Wiring Closet |
-| 3 | ![VLANs Switch0](Screenshots/vlas-sw0.png) | VLAN configuration on Switch0 (VLANs 10, 20, 30) |
-| 4 | ![VLANs Switch1](Screenshots/vlas-sw1.png) | VLAN configuration on Switch1 (VLANs 40, 50) |
-| 5 | ![Trunk Ports Switch0](Screenshots/SW0-trunk-ports.png) | Trunk ports on Switch0 (VLANs 10, 20, 30) |
-| 6 | ![Trunk Ports Switch1](Screenshots/SW1-trunk-ports.png) | Trunk ports on Switch1 (VLANs 40, 50) |
-| 7 | ![DHCP Bindings](Screenshots/dhcp-bindings.png) | DHCP IP assignments for all PCs |
-| 8 | ![DHCP Pools](Screenshots/dhcp-pools.png) | DHCP pool configuration for all VLANs |
-| 9 | ![Router Interfaces](Screenshots/router-interfaces.png) | Router interface status and IP addresses |
-| 10 | ![Routing Table](Screenshots/routing-table.png) | Routing table showing connected routes |
-| 11 | ![Router Config 1](Screenshots/router-config-1.png) | Router configuration - Hostname, passwords, DHCP exclusions |
-| 12 | ![Router Config 2](Screenshots/router-config-2.png) | Router configuration - DHCP pools and timezone |
-| 13 | ![Router Config 3](Screenshots/router-config-3.png) | Router configuration - Subinterfaces and ACLs |
-| 14 | ![Router Config 4](Screenshots/router-config-4.png) | Router configuration - SSH, banners, and VTY lines |
-| 15 | ![ACL Match Counters](Screenshots/acl-match-counters.png) | ACL match counters proving traffic filtering |
-| 16 | ![ACL Block: Finance → HR](Screenshots/acl-block-finance-hr.png) | Finance (PC2) → HR (PC0) blocked by ACL 100 |
-| 17 | ![ACL Allow: HR → Finance](Screenshots/acl-allow-hr-to-finance.png) | HR (PC0) → Finance (PC2) allowed |
-| 18 | ![ACL Allow: Finance → IT](Screenshots/acl-allow-finance-to-it.png) | Finance (PC2) → IT (PC4) allowed |
-| 19 | ![ACL Block: Monitoring → HR](Screenshots/acl-block-monitor-to-hr.png) | Monitoring (PC7) → HR (PC0) blocked by ACL 101 |
-| 20 | ![Port Security](Screenshots/port-security.png) | Port security summary on Switch0 |
-| 21 | ![Port Security Detail](Screenshots/port-security-detail.png) | Port security detail for Fa0/1 (sticky MAC) |
-| 22 | ![Port Security Violation](Screenshots/port-security-violation.png) | Security violation proof on Switch0 |
-| 23 | ![SSH Configuration](Screenshots/ssh-config.png) | SSH server configuration on Router0 |
-| 24 | ![SSH Access Test](Screenshots/ssh-access.png) | SSH connection from PC0 to Router0 |
-| 25 | ![Login Banner](Screenshots/login-banner.png) | Unauthorized access prohibited banner |
-| 26 | ![Successful Ping Test](Screenshots/success-ping.png) | Successful ping between HR and Finance |
-| 27 | ![Switch Configuration](Screenshots/switch-config.png) | Switch configuration (VLANs and port security) |
+### Network Topology
 
+![Logical Topology](Screenshots/topology-logical.png)
+
+*Logical network topology showing all devices and connections*
+
+---
+
+![Physical Topology](Screenshots/physical-topology.png)
+
+*Physical rack view in Main Wiring Closet*
+
+---
+---
+
+### VLAN & Trunk Configuration
+
+![VLANs Switch0](Screenshots/vlas-sw0.png)
+
+*VLAN configuration on Switch0 (VLANs 10, 20, 30)*
+
+---
+![VLANs Switch1](Screenshots/vlas-sw1.png)
+
+*VLAN configuration on Switch1 (VLANs 40, 50)*
+
+---
+![Trunk Ports Switch0](Screenshots/SW0-trunk-ports.png)
+
+*Trunk ports on Switch0 (VLANs 10, 20, 30)*
+
+---
+![Trunk Ports Switch1](Screenshots/SW1-trunk-ports.png)
+
+*Trunk ports on Switch1 (VLANs 40, 50)*
+
+---
+---
+
+### DHCP Configuration
+
+![DHCP Bindings](Screenshots/dhcp-bindings.png)
+
+*DHCP IP assignments for all PCs*
+
+---
+
+![DHCP Pools](Screenshots/dhcp-pools.png)
+
+*DHCP pool configuration for all VLANs*
+
+---
+---
+
+### Router Configuration
+
+![Router Interfaces](Screenshots/router-interfaces.png)
+
+*Router interface status and IP addresses*
+
+---
+
+![Routing Table](Screenshots/routing-table.png)
+
+*Routing table showing connected routes*
+
+---
+
+![Router Config 1](Screenshots/router-config-1.png)
+
+*Router configuration - Hostname, passwords, DHCP exclusions*
+
+---
+
+![Router Config 2](Screenshots/router-config-2.png)
+
+*Router configuration - DHCP pools and timezone*
+
+---
+
+![Router Config 3](Screenshots/router-config-3.png)
+
+*Router configuration - Subinterfaces and ACLs*
+
+---
+
+![Router Config 4](Screenshots/router-config-4.png)
+
+*Router configuration - SSH, banners, and VTY lines*
+
+---
+---
+
+### Access Control Lists (ACLs)
+
+![ACL Match Counters](Screenshots/acl-match-counters.png)
+
+*ACL match counters proving traffic filtering*
+
+---
+
+![ACL Block: Finance → HR](Screenshots/acl-block-finance-hr.png)
+
+*Finance (PC2) → HR (PC0) blocked by ACL 100*
+
+---
+
+![ACL Allow: HR → Finance](Screenshots/acl-allow-hr-to-finance.png)
+
+*HR (PC0) → Finance (PC2) allowed*
+
+---
+
+![ACL Allow: Finance → IT](Screenshots/acl-allow-finance-to-it.png)
+
+*Finance (PC2) → IT (PC4) allowed*
+
+---
+
+![ACL Block: Monitoring → HR](Screenshots/acl-block-monitor-to-hr.png)
+
+*Monitoring (PC7) → HR (PC0) blocked by ACL 101*
+
+---
+---
+
+### Port Security
+
+![Port Security](Screenshots/port-security.png)
+
+*Port security summary on Switch0*
+
+---
+
+![Port Security Detail](Screenshots/port-security-detail.png)
+
+*Port security detail for Fa0/1 (sticky MAC)*
+
+---
+
+![Port Security Violation](Screenshots/port-security-violation.png)
+
+*Security violation proof on Switch0*
+
+---
+---
+
+### SSH & Secure Management
+
+![SSH Configuration](Screenshots/ssh-config.png)
+
+*SSH server configuration on Router0*
+
+---
+
+![SSH Access Test](Screenshots/ssh-access.png)
+
+*SSH connection from PC0 to Router0*
+
+---
+
+![Login Banner](Screenshots/login-banner.png)
+
+*Unauthorized access prohibited banner*
+
+---
+---
+
+### Verification
+
+![Successful Ping Test](Screenshots/success-ping.png)
+
+*Successful ping between HR and Finance*
+
+---
+
+![Switch Configuration](Screenshots/switch-config.png)
+
+*Switch configuration (VLANs and port security)*
+
+---
 ---
 
 ## 🙏 Acknowledgments

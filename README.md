@@ -653,12 +653,12 @@ R1>
 
 ### VLAN & Trunk Configuration
 
-![VLANs Switch0](Screenshots/vlas-sw0.png)
+![VLANs Switch0](Screenshots/vlans-sw0.png)
 
 *VLAN configuration on Switch0 (VLANs 10, 20, 30)*
 
 ---
-![VLANs Switch1](Screenshots/vlas-sw1.png)
+![VLANs Switch1](Screenshots/vlans-sw1.png)
 
 *VLAN configuration on Switch1 (VLANs 40, 50)*
 
